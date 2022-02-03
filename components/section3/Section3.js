@@ -50,7 +50,7 @@ export default function MeetupItem(props) {
                 </div>
 
 
-                <button>Enroll Now</button>
+                <button className='button'>Enroll Now</button>
 
             </div>
     )

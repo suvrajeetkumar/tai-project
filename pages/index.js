@@ -13,10 +13,19 @@ import Section8 from '../components/section8/Section8'
 import Section9 from '../components/section9/Section9'
 import Section10 from '../components/section10/Section10'
 import Section11 from '../components/section11/Section11'
+import Modal from '../components/dropDownModel/DropDownModel'
+import { useState , useEffect } from 'react'
 export default function Home() {
+
+  const [showModal , setShowModal] = useState(true);
+  // useEffect(()=>{
+  //   setShowModal(true);
+  // },[])
   return (
     <div className={styles.container}>
       <Navbar/>
+      <button className="buttonSmall" onClick={()=>setShowModal(true)}>Enroll Now</button>
+      <Modal show={showModal} onClose={()=> setShowModal(false)}/>
       <div className='container'>
       <Section1/>
       <Section2/>

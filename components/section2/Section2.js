@@ -7,7 +7,7 @@ export default function MeetupItem(props) {
                
                 <div className={styles.wrapper2}><div className={styles.text}>Is your child frustrated with lockdown?
                      let your child experience the joy of immersing in science and technology in the easiest and fun way possible!</div>
-                     <div><button>ENROLL YOUR CHILD</button></div></div>
+                     <div><button className='button'>ENROLL YOUR CHILD</button></div></div>
                 <div className={styles.kid}></div>
                 </div>
                 

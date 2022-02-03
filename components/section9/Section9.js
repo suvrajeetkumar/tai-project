@@ -5,7 +5,7 @@ export default function MeetupItem(props) {
                 <div  className={`${styles.section1} sectionwrapper`}  >
                 <div className={styles.header1}>Want to gift this for your loved ones or someone who needs it?</div>
                 <div className={styles.contenttext}>Perfect choice to gift children for birthday, achievement or any occasion</div>
-                <button className={styles.buttonstyle}>Sent gift now</button>
+                <button className="button">Sent gift now</button>
                 </div>
             </div>
     )
