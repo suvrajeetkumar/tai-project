@@ -1,0 +1,15 @@
+.section1wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79.8vh;
+    width: 100%;
+    background-image: url("../../public/grid.png");
+    
+  }
+  
+  .section1{
+    background-image: url("../../public/banner-img.png");
+    background-size: cover;
+    
+  }

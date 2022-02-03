@@ -1,0 +1,80 @@
+.section6wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    background-color: #fb425c;
+  }
+  
+  .section6{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-basis: 0;
+    height: 30vh;
+    width: 100%;
+    margin: 3%;
+    /* align-items: center; */
+  }
+  .headertext{
+    font-size: 5.5vh;
+    line-height: 103%;
+    padding: 2%;
+    color: #FFFFFF;
+    font-family: fontSpring;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .text{
+    font-size: 1.4vw;
+    color: rgba(255, 255, 255, 0.67);
+    font-family: fontSpring;
+    
+    margin-bottom: 30px;
+    color: white;
+    
+  }
+  .kid{
+    background-image: url("../../public/kid.png");
+    background-size: cover;
+   
+    
+    /* width: 50%; */
+   
+  }
+
+  .flexitem{
+    background-color:rgba(255, 255, 255, 0.67);
+    margin: 2px;
+    height: 200px;
+    width: 50%;
+  }
+
+  .items{
+    display: inline;
+  }
+  .wrapper6{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+   max-width: 50%;
+  }
+  .leftsubsection1{
+      width: 30%;
+     height: auto;
+  }
+  .rightsubsection1{
+      width: 70%;
+  }
+
+  .leftsubsection2{
+    width: 70%;
+   height: auto;
+}
+.rightsubsection2{
+    width: 30%;
+}

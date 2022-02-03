@@ -1,0 +1,27 @@
+.section3wrapper{
+    display: flex;
+    
+    margin: 7%;
+    /* padding: 5%; */
+    flex-direction: column;
+    height: auto;
+    width: 70%;
+  }
+  
+  .section3{
+    display: flex;
+    
+  }
+  .halfsections{
+    
+    margin: 2px;
+    height: auto;
+    width: 50%;
+  }
+  .sizewrapper{
+    width: 70%;
+  }
+  .headertext{
+    font-size: 56px;
+    line-height: 72px;
+  }
